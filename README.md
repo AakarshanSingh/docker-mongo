@@ -8,13 +8,19 @@ This docker file is used to create a local version of mongodb if you have Docker
 Clone the project
 
 ```bash
-  git clone https://github.com/AakarshanSingh/docker-mongo-setup.git
+  git clone https://github.com/AakarshanSingh/docker-mongo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd docker-mongo-setup
+  cd docker-mongo
+```
+
+Executable permission
+
+```bash
+  chmod +x setup.sh
 ```
 
 Start the server
